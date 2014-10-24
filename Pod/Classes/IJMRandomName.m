@@ -45,12 +45,12 @@
 
 - (NSArray *)loadFirstNames
 {
-    return [self arrayFromFileWithFileName:@"firstNames" andType:@"txt"];
+    return [self arrayFromFileWithFileName:@"firstNames" andType:@"csv"];
 }
 
 - (NSArray *)loadLastNames
 {
-    return [self arrayFromFileWithFileName:@"lastNames" andType:@"txt"];
+    return [self arrayFromFileWithFileName:@"lastNames" andType:@"csv"];
 }
 
 - (NSArray *)arrayFromFileWithFileName:(NSString *)fileName andType:(NSString *)type

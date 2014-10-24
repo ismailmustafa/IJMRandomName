@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-s.source_files = 'Pod/Classes/*.{h,m}'
+s.source_files = 'Pod/Classes/*.{h,m,csv}'
   s.resource_bundles = {
     'IJMRandomName' => ['Pod/Assets/*.png']
   }
