@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		75B82E067E6744E4A681D149 /* Pods-IJMRandomName-IJMRandomName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD2303E057A57DDD1EB6DA /* Pods-IJMRandomName-IJMRandomName-dummy.m */; };
 		9243E6392ADA1E95867376F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F3971F262975A34A2FC35 /* Foundation.framework */; };
-		BD723D5119FA13F800605B6C /* firstNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD723D4D19FA13F800605B6C /* firstNames.txt */; };
-		BD723D5219FA13F800605B6C /* IJMRandomName.m in Sources */ = {isa = PBXBuildFile; fileRef = BD723D4F19FA13F800605B6C /* IJMRandomName.m */; };
-		BD723D5319FA13F800605B6C /* lastNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD723D5019FA13F800605B6C /* lastNames.txt */; };
 		CDDBC53A7F481FCB4C2A7701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F3971F262975A34A2FC35 /* Foundation.framework */; };
 		FDC2C8D7A842F0F7EC4D22DA /* Pods-IJMRandomName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4DB0BFACCD3BEC8950666 /* Pods-IJMRandomName-dummy.m */; };
 /* End PBXBuildFile section */
@@ -47,10 +44,6 @@
 		8FB4DB0BFACCD3BEC8950666 /* Pods-IJMRandomName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IJMRandomName-dummy.m"; sourceTree = "<group>"; };
 		B381AF04CCCC320259F24CC8 /* Pods-IJMRandomName-IJMRandomName-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJMRandomName-IJMRandomName-Private.xcconfig"; sourceTree = "<group>"; };
 		BD1F3971F262975A34A2FC35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BD723D4D19FA13F800605B6C /* firstNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = firstNames.txt; sourceTree = "<group>"; };
-		BD723D4E19FA13F800605B6C /* IJMRandomName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJMRandomName.h; sourceTree = "<group>"; };
-		BD723D4F19FA13F800605B6C /* IJMRandomName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJMRandomName.m; sourceTree = "<group>"; };
-		BD723D5019FA13F800605B6C /* lastNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lastNames.txt; sourceTree = "<group>"; };
 		C923BE2F16B2809C9C988F63 /* IJMRandomName.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJMRandomName.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F15D7CCA94A3C411C0B2B5 /* Pods-IJMRandomName-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IJMRandomName-resources.sh"; sourceTree = "<group>"; };
 		D8F1BF2279D1B44ABCA56A6D /* Pods-IJMRandomName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJMRandomName.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,10 +115,6 @@
 		6E2FAD9F51837B802D9CC3D7 /* IJMRandomName */ = {
 			isa = PBXGroup;
 			children = (
-				BD723D4D19FA13F800605B6C /* firstNames.txt */,
-				BD723D4E19FA13F800605B6C /* IJMRandomName.h */,
-				BD723D4F19FA13F800605B6C /* IJMRandomName.m */,
-				BD723D5019FA13F800605B6C /* lastNames.txt */,
 				180CDB963FE60C2882FC6758 /* Support Files */,
 			);
 			name = IJMRandomName;
@@ -262,8 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD723D5119FA13F800605B6C /* firstNames.txt in Resources */,
-				BD723D5319FA13F800605B6C /* lastNames.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD723D5219FA13F800605B6C /* IJMRandomName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
