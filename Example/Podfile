@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'IJMRandomName', :exclusive => true do
+  pod "IJMRandomName", :path => "../"
+
+  
+end
