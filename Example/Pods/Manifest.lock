@@ -1,0 +1,14 @@
+PODS:
+  - IJMRandomName (0.1.0)
+
+DEPENDENCIES:
+  - IJMRandomName (from `../`)
+
+EXTERNAL SOURCES:
+  IJMRandomName:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IJMRandomName: 175aaf208ccca44a21a3527e9592f0bfe921a54e
+
+COCOAPODS: 0.34.1

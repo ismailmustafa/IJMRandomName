@@ -6,10 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/IJMRandomName.svg?style=flat)](http://cocoadocs.org/docsets/IJMRandomName)
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+ 
+This library only has one method and is used as follows:
+ 
+    #import "IJMRandomName.h"
+ 
+    IJMRandomName *randomName = [[IJMRandomName alloc] init];
+    NSString *name = [randomName getName];
 
 ## Installation
 
@@ -20,7 +23,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-ismailmustafa, ismailmustafa@rocketmail.com
+ismailmustafa, ismailmustafa@gmail.com
 
 ## License
 
