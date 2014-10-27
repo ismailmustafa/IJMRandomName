@@ -207,6 +207,8 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/firstNames.txt",
+				"$(SRCROOT)/lastNames.txt",
 			);
 			name = "Copy Pods Resources";
 			outputPaths = (
