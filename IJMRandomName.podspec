@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IJMRandomName"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Random name generator."
   s.description      = <<-DESC
                      A simple library that generates random names.
@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-s.source_files = 'Pod/Classes/*.{h,m,txt}'
+s.source_files = 'Pod/Classes/*.{h,m}'
+s.resources = 'Pod/Classes/*.{txt}'
   s.resource_bundles = {
     'IJMRandomName' => ['Pod/Assets/*.png']
   }
