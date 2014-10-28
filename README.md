@@ -23,7 +23,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-ismailmustafa, ismailmustafa@gmail.com
+ismailmustafa, firstnameLastname at gmail dot com
 
 ## License
 
