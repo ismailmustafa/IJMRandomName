@@ -20,6 +20,10 @@ IJMRandomName is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "IJMRandomName"
+    
+## Tutorial
+
+This pod was created for a blog post detailing how to create cocoapods. That blog post can be found [here](http://ismailmustafa.com/posts/2014-10-27-cocoapods.html).
 
 ## Author
 
